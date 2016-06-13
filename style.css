@@ -64,7 +64,9 @@ height: 15rem;
 background-color: black;
 }
 
-
+header#main_header.main_header {
+  height: 20rem;
+}
 
 
 header div#logo  {
