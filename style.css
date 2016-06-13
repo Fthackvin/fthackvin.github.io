@@ -74,7 +74,7 @@ header div#logo  {
   display: block;
   vertical-align: middle;
   padding-top: 3rem;
-  padding-left: 1rem;
+  padding-right: 2rem;
   clear:both;
   margin: 0px auto;
   opacity: 1;
@@ -313,7 +313,6 @@ article section {
 article.clearfix {
     content: " "; /* Older browser do not support empty content */
    visibility:visible;
-   height: 0px;
    clear: both;
 
 }
