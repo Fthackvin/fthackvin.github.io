@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Asap:400,400italic,700,700italic);
+
+
 * {
   box-sizing: border-box;
 }
@@ -7,7 +10,7 @@
 TYPOGRAPHY
 ____________________________________________________*/
 
-@import url(https://fonts.googleapis.com/css?family=Asap:400,400italic,700,700italic);
+
 
 html {
   font-size: 50%;
@@ -43,11 +46,12 @@ article {
 
 }
 article section {
+  font-family:  Roboto, serif, helvetica;
   padding: 3rem;
 }
 
 a:link{
-  color:blue;
+  color:#F743E8;
 }
 a:visited{
   color:white;
@@ -342,6 +346,9 @@ article section {
   padding-top: 1em;
   width: 100%;
   display:inline-block;
+  padding-left: 35rem;
+  padding-right: 35rem;
+  letter-spacing: 1px;
 }
 
 article.clearfix {
@@ -349,11 +356,12 @@ article.clearfix {
    visibility:visible;
    clear: both;
 
+
 }
 
 
 
-.para_one {
+/*.para_one {
   padding-top: 4em;
   width: 66%;
   float: left;
@@ -419,7 +427,7 @@ article.clearfix {
 .para_eighteen {
   padding-bottom: 14em;
   width: 100%;
-}
+}*/
 
 
 /*__________________________________________________
