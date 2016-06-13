@@ -74,7 +74,8 @@ header div#logo  {
   display: block;
   vertical-align: middle;
   padding-top: 3rem;
-  padding-right: 2rem;
+  padding-right: 5rem;
+  padding-bottom: 2.5rem;
   clear:both;
   margin: 0px auto;
   opacity: 1;
