@@ -71,7 +71,7 @@ header#main_header.main_header {
 header div#logo img  {
   z-index: 1;
   width: 8em;
-  height: auto;
+  height: 14rem;
   display: block;
   vertical-align: middle;
   padding-top: 2rem;
