@@ -1213,6 +1213,8 @@ li@charset "UTF-8";
 .bounceOutUp {
   -webkit-animation-name: bounceOutUp;
   animation-name: bounceOutUp;
+  -webkit-animation-fill-mode: forwards;
+animation-fill-mode: forwards;
 }
 
 @-webkit-keyframes fadeIn {
@@ -1527,6 +1529,8 @@ li@charset "UTF-8";
 .fadeOut {
   -webkit-animation-name: fadeOut;
   animation-name: fadeOut;
+  -webkit-animation-fill-mode: forwards;
+animation-fill-mode: forwards;
 }
 
 @-webkit-keyframes fadeOutDown {

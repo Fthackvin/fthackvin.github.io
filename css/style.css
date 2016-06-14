@@ -59,9 +59,7 @@ article.clearfix:after{
 
 article section {
   font-family:  Roboto, serif, helvetica;
-  padding: 3rem;
   clear: both;
-  padding-top: 20rem;
 }
 
 a:link{
@@ -137,6 +135,9 @@ div#spacer {
   opacity: 0;
 }
 
+div#spacer2 {
+
+}
 
 /*__________________________________________________
 Hgroup Masthead
@@ -187,7 +188,7 @@ ____________________________________________________*/
 /*.wow {
 visibility: hidden;
 }*/
-
+/*
 .issue_date.fadeIn{
   -webkit-animation-duration: 5s;
 }
@@ -216,11 +217,12 @@ visibility: hidden;
 
 
 .jumbo_one.fadeOut {
-  -webkit-animation-duration: 10s;
+  -webkit-animation-duration: 3s;
   -webkit-animation-iteration-count:1;
+  -webkit-animation-time
 
 
-}
+}*/
 
 .image_two.wow.bounceIn {
   -webkit-animation-duration: 1s;
@@ -378,6 +380,10 @@ article.clearfix {
   clear: both;
 }
 
+article section.para_one {
+  padding-top: 20rem;
+}
+
 article section.para_eighteen {
   padding-bottom: 20rem;
 }
@@ -395,11 +401,14 @@ div.site-footer {
   overflow: visible;
   bottom: 0;
   z-index: 5;
+  height: 50rem;
 }
 
 div.site-footer p  {
 
 margin: 1rem 2rem;
+float:left;
+padding-top: 45rem;
 
 }
 
@@ -407,8 +416,8 @@ div p a {
   color: black;
 }
 
-.site-footer p.one  {
-
+.site-footer p a  {
+color: black;
 padding-top: 4rem;
 }
 
