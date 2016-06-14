@@ -1,0 +1,168 @@
+/*__________________________________________________
+Media Queries
+____________________________________________________*/
+
+@media screen and (max-width: 1347px) {
+
+div.hgroup_background {
+  height: 10rem;
+  }
+}
+
+@media screen and (max-width:1140px) {
+  article {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width:1103px) {
+  article {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width:1031px) {
+  article {
+    font-size: 2.3rem;
+  }
+}
+
+@media screen and (max-width:1017px) {
+  article {
+    font-size: 2.2rem;
+  }
+}
+
+@media screen and (max-width:999px) {
+  article {
+    font-size: 2.1rem;
+    padding-left: -10rem;
+    padding-right: -10rem;
+  }
+}
+
+
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
+img.jumbo_one {
+  height: auto;
+}
+
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  img.jumbo_one img.jumbo_copy {
+  {width: 100%; height: 100%; margin: 0; padding; 0;}
+  }
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  {   img.jumbo_one img.jumbo_copy {
+    {width: 100%; height: 100%; margin: 0; padding; 0;}
+    }
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    img.jumbo_one img.jumbo_copy {
+    {width: 100%; height: 100%; margin: 0; padding: 0;}
+    }
+
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) { div img.jumbo_one div img.jumbo_copy {
+  {width: 100%; height: 100%; margin: 0; padding: 0;}
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { div img.jumbo_one div img.jumbo_copy {
+  {width: 100%; height: 100%; margin: 0; padding: 0;}
+
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
