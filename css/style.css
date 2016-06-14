@@ -198,46 +198,27 @@ visibility: hidden;
 }
 
 .headline.wow.zoomIn{
-  -webkit-animation-duration: 4s;
+  -webkit-animation-duration: 2s;
+  }
 }
 
-.headline_two.zoomIn {
+.headline_two.wow.zoomIn {
   -webkit-animation-duration: 5s;
   -webkit-animation-delay:1s
 }
 
-.wow.zoomIn.headline_three{
-  -webkit-animation-duration: 2s;
-  -webkit-animation-delay: 2.5s;
-}
-
-.headline_four.zoomIn{
-  -webkit-animation-duration: 3s;
-  -webkit-animation-delay: 4s;
-}
-
-.headline_five.zoomIn{
-  -webkit-animation-duration: 3s;
-  -webkit-animation-delay: 4.5s;
-}
-
-
-/*.headline_three. {
-  visibility:hidden;
-    opacity:1;
-    transition:visibility 0s linear 0.5s,opacity 0.5s linear;
-}*/
-/*
-.headline_three.flash {
-visibility:visible;
-  opacity:1;
-}*/
-
-/*.headline_three.flash {
-  -webkit-animation-duration: 0.3s;
-  -webkit-animation-delay: 4s;
+.headline_three.wow.flash.{
+  -webkit-animation-duration: infinite;
   -webkit-animation-iteration-count: infinite;
-}*/
+}
+
+.headline_four.wow.zoomIn{
+  -webkit-animation-duration: 3s;
+}
+
+.headline_five.wow.zoomIn{
+  -webkit-animation-duration: 3s;
+}
 
 
 .jumbo_one.fadeOut {
@@ -245,7 +226,7 @@ visibility:visible;
 
 }
 
-.image_one.wow.fadeIn {
+.image_one.wow.fadeInRight {
   -webkit-animation-duration: 4s;
 }
 /*
@@ -333,7 +314,7 @@ div.image_one img{
   padding-left: 30rem;
   padding-right: 30rem;
   display: block;
-  border-radius: 50%:
+  border-radius: 50%;
 
 
 }
@@ -344,8 +325,7 @@ div.image_two img{
   padding-left: 30rem;
   padding-right: 30rem;
   display: block;
-  border-radius: 50%:
-  clip: rect(0px,0px,100px,0px);
+  border-radius: 50%;
 
 }
 
@@ -356,7 +336,7 @@ div.image_three img{
   padding-left: 30rem;
   padding-right: 30rem;
   display: block;
-  border-radius: 50%:
+  border-radius: 50%;
 
 }
 
@@ -425,7 +405,6 @@ div.site-footer {
   font-size: 3rem;
   color: black;
   background-color: #F7F5D0;
-  height: 15rem;
   overflow: visible;
   bottom: 0;
   z-index: 5;
