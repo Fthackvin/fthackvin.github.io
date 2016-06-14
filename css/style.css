@@ -189,11 +189,11 @@ ____________________________________________________*/
 }*/
 
 
-.wow {
+/*.wow {
 visibility: hidden;
-}
+}*/
 
-.issue_date.fadeIn {
+.issue_date.fadeIn{
   -webkit-animation-duration: 5s;
 }
 
