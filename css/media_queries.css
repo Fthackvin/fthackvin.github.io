@@ -36,8 +36,8 @@ div.hgroup_background {
 @media screen and (max-width:999px) {
   article {
     font-size: 2.1rem;
-    padding-left: -10rem;
-    padding-right: -10rem;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 

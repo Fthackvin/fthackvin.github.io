@@ -127,6 +127,10 @@ header div#logo{
 
 }
 
+div.logo_container {
+  display: block;
+}
+
 div#spacer {
   background-color: #182A68;
   visibility: hidden;
