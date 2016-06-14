@@ -156,7 +156,7 @@ padding-bottom: 0.25em
 
 hgroup div.hgroup_background {
   width: 100%;
-  height: 80rem;
+  height: 180rem;
   background-color: black;
   border: none;
   margin: 0 auto;
@@ -190,14 +190,14 @@ ____________________________________________________*/
 
 
 .wow {
-/*visibility: hidden;*/
+visibility: hidden;
 }
 
 .issue_date.fadeIn {
   -webkit-animation-duration: 5s;
 }
 
-.wow.zoomIn.headline {
+.headline.wow.zoomIn{
   -webkit-animation-duration: 4s;
 }
 
@@ -206,7 +206,7 @@ ____________________________________________________*/
   -webkit-animation-delay:1s
 }
 
-.headline_three.zoomIn{
+.wow.zoomIn.headline_three{
   -webkit-animation-duration: 2s;
   -webkit-animation-delay: 2.5s;
 }
@@ -243,6 +243,10 @@ visibility:visible;
 .jumbo_one.fadeOut {
   -webkit-animation-duration: 40s;
 
+}
+
+.image_one.wow.fadeIn {
+  -webkit-animation-duration: 4s;
 }
 /*
 
@@ -293,10 +297,10 @@ div img.Main.clearfix:after{
   margin: 0px;
   padding: 0px;
   content:"";
-   visibility: hidden;
-   display: block;
-   height: 0;
-   clear: both;
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
 }
 
 
@@ -323,53 +327,71 @@ float:left;
 
 
 
-.image_one {
-  float: right;
-  padding: 2px;
-  width: 33%;
+div.image_one img{
+  clear: both;
+  width: 100%;
+  padding-left: 30rem;
+  padding-right: 30rem;
   display: block;
+  border-radius: 50%:
+
+
 }
 
-.image_two{
-  float: right;
-  padding-left: 20px;
-  padding: 2px;
-  width: 33%;
-  margin-left: 10px;
+div.image_two img{
+  clear: both;
+  width: 100%;
+  padding-left: 30rem;
+  padding-right: 30rem;
   display: block;
-  z-index: 3;
-}
-
-.image_three {
-  float: left;
-  padding-top: 3em;
-  padding-left: none;
-  padding-top: 10rem;
-  padding-bottom: 8rem;
-  padding-right: none;
+  border-radius: 50%:
+  clip: rect(0px,0px,100px,0px);
 
 }
 
-.image_four {
-  float:left;
-  padding-left: 4rem;
-  padding-top: 4rem;
-}
 
-.image_five {
-  padding-top: 8rem;
-  float: right;
-  width: 33%;
+div.image_three img{
+  clear: both;
+  width: 100%;
+  padding-left: 30rem;
+  padding-right: 30rem;
   display: block;
+  border-radius: 50%:
+
+}
+
+div.image_four img{
+  clear: both;
+  width: 100%;
+  padding-left: 30rem;
+  padding-right: 30rem;
+  display: block;
+  border-radius: 50%:
+
 }
 
 
-.image_six {
-  width: 33%;
-  float:left;
-  padding-left: 4rem;
-  padding-top: 4rem;
+div.image_five img{
+  clear: both;
+  width: 100%;
+  padding-left: 30rem;
+  padding-right: 30rem;
+  display: block;
+  border-radius: 50%:
+
 }
+
+div.image_six img{
+  clear: both;
+  width: 100%;
+  padding-left: 30rem;
+  padding-right: 30rem;
+  display: block;
+  border-radius: 50%:
+
+}
+
+
 
 
 /*__________________________________________________
@@ -378,7 +400,7 @@ ____________________________________________________*/
 
 
 article section {
-  padding-top: 1em;
+  /*padding-top: 1;*/
   width: 100%;
   display:inline-block;
   padding-left: 35rem;
@@ -391,76 +413,6 @@ article.clearfix {
   visibility:visible;
   clear: both;
 }
-
-
-
-/*.para_one {
-  padding-top: 4em;
-  width: 66%;
-  float: left;
-}
-
-.para_two {
-  width: 100%;
-  float: left;
-  display: block;
-  clear: both;
-  padding-top: 4rem;
-}
-
-
-.para_three {
-  padding-top: 3em;
-  padding-right: 1em;
-  width: 66%;
-  float: right;
-  display: inline-block;
-  padding-left: 0;
-  margin-left: 0;
-  position: relative;
-}
-
-.para_four {
-  padding-top: 4em;
-  width: 100%;
-  display: block;
-  float: left;
-}
-
-.para_five {
-  padding-top: 4em;
-  width: 66%;
-  float: left;
-}
-
-.para_eight {
-  float: right;
-  width:66%;
-}
-
-.para_eleven {
-  width: 100%;
-  float: left;
-  display: block;
-}
-
-.para_twelve {
-
-  width: 66%;
-  float: left;
-}
-
-.para_seventeen  {
-  padding-top: 4em;
-  width: 66%;
-  float: left;
-  display: block;
-}
-
-.para_eighteen {
-  padding-bottom: 14em;
-  width: 100%;
-}*/
 
 
 /*__________________________________________________
