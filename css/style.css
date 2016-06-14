@@ -203,12 +203,11 @@ visibility: hidden;
 }
 
 .headline_two.wow.zoomIn {
-  -webkit-animation-duration: 5s;
-  -webkit-animation-delay:1s
+  -webkit-animation-duration: 2s;
 }
 
-.headline_three.wow.flash.{
-  -webkit-animation-duration: infinite;
+.headline_three.wow.flash{
+  -webkit-animation-duration: 1s;
   -webkit-animation-iteration-count: infinite;
 }
 
@@ -226,43 +225,31 @@ visibility: hidden;
 
 }
 
-.image_one.wow.fadeInRight {
-  -webkit-animation-duration: 4s;
-}
-/*
-
-@-webkit-keyframes fadeInLeft {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(-100%, 0, 0);
-    transform: translate3d(-100%, 0, 0);
-  }
-
-  to {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
+.image_two.wow.bounceIn {
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay:1s;
 }
 
-@keyframes fadeInLeft {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(-100%, 0, 0);
-    transform: translate3d(-100%, 0, 0);
-  }
-
-  to {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
+.image_three.wow.bounceIn {
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay:1s;
 }
 
-.fadeInLeft {
-  -webkit-animation-name: fadeInLeft;
-  animation-name: fadeInLeft;
-}*/
+
+.image_four.wow.bounceIn {
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay:1s;
+}
+
+.image_five.wow.bounceIn {
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay:1s;
+}
+
+.image_six.wow.bounceIn {
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay:1s;
+}
 
 
 /*__________________________________________________
@@ -394,6 +381,9 @@ article.clearfix {
   clear: both;
 }
 
+article section.para_eighteen {
+  padding-bottom: 20rem;
+}
 
 /*__________________________________________________
 Footer
