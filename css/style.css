@@ -172,7 +172,7 @@ div.issue_date {
   text-align: center;
 }
 
-div.title_info h2 span {
+div h2 span {
   color: white;
 }
 
@@ -281,8 +281,8 @@ float:left;
 .jumbo_copy {
 width:100%;
 z-index: 0;
-position: absolute;
-float:left;
+position: relative;
+
 
 }
 
@@ -458,7 +458,7 @@ ____________________________________________________*/
 Media Queries
 ____________________________________________________*/
 
-@media screen and (max-width:1600px) {
+/*@media screen and (max-width:1600px) {
   h2.headline {
     font-size: 35rem;
   }
@@ -534,4 +534,4 @@ ____________________________________________________*/
   p.title_info .author {
     font-size: 5rem;
   }
-}
+}*/
