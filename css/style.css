@@ -61,7 +61,7 @@ article section {
   font-family:  Roboto, serif, helvetica;
   padding: 3rem;
   clear: both;
-  position: relative;
+  padding-top: 20rem;
 }
 
 a:link{
@@ -133,8 +133,8 @@ div#spacer {
   background-color: #182A68;
   visibility: hidden;
   width: 100%;
-  height: 1000px;
   float:left; display:inline-block;
+  opacity: 0;
 }
 
 
@@ -145,30 +145,26 @@ ____________________________________________________*/
 
 hgroup#masthead {
   display:block;
+  clear: both;
   margin: auto;
   text-align: left;
-  position: relative;
   z-index: 1;
-  width: auto;
+  width: 100%;
+  height: auto;
   max-width: 100% !important;
   color: white;
-
 }
-
-hgroup div {
-  font-size: 3rem;
-}
-
 
 
 
 hgroup div.hgroup_background {
   width: 100%;
-  height: 180rem;
+  height: 200rem;
   background-color: black;
   border: none;
   margin: 0 auto;
-  overflow: auto;
+  display: inline-block;
+  clear: both;
 }
 
 
@@ -176,7 +172,13 @@ div.issue_date {
   text-align: center;
 }
 
+div.title_info h2 span {
+  color: white;
+}
 
+h3.author {
+  color: white;
+}
 /*__________________________________________________
 Animations
 ____________________________________________________*/
@@ -215,7 +217,7 @@ visibility: hidden;
 
 .jumbo_one.fadeOut {
   -webkit-animation-duration: 10s;
-  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-iteration-count:1;
 
 
 }
