@@ -1240,8 +1240,6 @@ li@charset "UTF-8";
   -moz-animation-name: fadeIn;
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
-  -webkit-animation-fill-mode: forwards;
-animation-fill-mode: backwards;
 }
 
 @-webkit-keyframes fadeInDown {

@@ -25,11 +25,19 @@ div.hgroup_background {
   article {
     font-size: 2.3rem;
   }
+  div.image_one img {
+    padding-left: 27%;
+    padding-right: 27%;
+  }
 }
 
 @media screen and (max-width:1017px) {
   article {
     font-size: 2.2rem;
+  }
+  div.image_one img {
+    padding-left: 25%;
+    padding-right: 25%;
   }
 }
 
@@ -46,6 +54,53 @@ div.hgroup_background {
     padding-right: 20%;
 
   }
+
+  div.image_one img {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}
+}
+
+@media screen and (max-width:583px) {
+  article {
+    font-size: 1.5rem;
+  }
+
+  html {
+    font-size: 50%;
+  }
+  article section {
+    padding-left: 14%;
+    padding-right: 14%;
+
+  }
+
+  div.image_one img {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}
+}
+
+@media screen and (max-width:583px) {
+  article {
+    font-size: 1.5rem;
+  }
+
+  html {
+    font-size: 50%;
+  }
+  article section {
+    padding-left: 14%;
+    padding-right: 14%;
+
+  }
+
+  div.image_one img {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
 }
 }
 
@@ -58,35 +113,7 @@ img.jumbo_one {
 }
 
 
-/* ----------- iPhone 4 and 4S ----------- */
 
-/* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-  img.jumbo_one img.jumbo_copy {
-  {width: 100%; height: 100%; margin: 0; padding; 0;}
-  }
-
-}
-
-/* Portrait */
-@media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-}
-
-/* Landscape */
-@media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-
-}
 
 /* ----------- iPhone 5 and 5S ----------- */
 
@@ -96,6 +123,22 @@ img.jumbo_one {
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2) {
 
+    img.jumbo_one img.jumbo_copy {
+    {width: 100%; height: 100%; margin: 0; padding; 0;}
+    article {
+      font-size: 2.1rem;
+    }
+
+    html {
+      font-size: 60%;
+    }
+    article section {
+      padding-left: 20%;
+      padding-right: 20%;
+      padding-top: 3rem;
+
+    }
+
 }
 
 /* Portrait */
@@ -104,14 +147,44 @@ img.jumbo_one {
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
+      img.jumbo_one img.jumbo_copy {
+      {width: 100%; height: 100%; margin: 0; padding; 0;}
+      article {
+        font-size: 2.1rem;
+      }
+
+      html {
+        font-size: 60%;
+      }
+      article section {
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 3rem;
+
+      }
 }
+
 
 /* Landscape */
 @media only screen
   and (min-device-width: 320px)
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
+  and (orientation: landscape) {   img.jumbo_one img.jumbo_copy {
+    {width: 100%; height: 100%; margin: 0; padding; 0;}
+    article {
+      font-size: 2.1rem;
+    }
+
+    html {
+      font-size: 60%;
+    }
+    article section {
+      padding-left: 20%;
+      padding-right: 20%;
+      padding-top: 3rem;
+
+    }
 
 }
 
@@ -124,6 +197,19 @@ img.jumbo_one {
   and (-webkit-min-device-pixel-ratio: 2)
   {   img.jumbo_one img.jumbo_copy {
     {width: 100%; height: 100%; margin: 0; padding; 0;}
+    article {
+      font-size: 2.1rem;
+    }
+
+    html {
+      font-size: 60%;
+    }
+    article section {
+      padding-left: 20%;
+      padding-right: 20%;
+      padding-top: 3rem;
+
+    }
     }
 
 }
@@ -137,17 +223,23 @@ img.jumbo_one {
     img.jumbo_one img.jumbo_copy {
     {width: 100%; height: 100%; margin: 0; padding: 0;}
     }
+    article {
+      font-size: 2.1rem;
+    }
+
+    html {
+      font-size: 60%;
+    }
+    article section {
+      padding-left: 10%;
+      padding-right: 10%;
+      padding-top: 3rem;
+
+    }
 
 }
 
-/* Landscape */
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 667px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
 
-}
 
 /* ----------- iPhone 6+ ----------- */
 
@@ -160,15 +252,15 @@ img.jumbo_one {
   {width: 100%; height: 100%; margin: 0; padding: 0;}
 
   article {
-    font-size: 2.1rem;
+    font-size: 1.9rem;
   }
 
   html {
     font-size: 60%;
   }
   article section {
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 15%;
+    padding-right: 15%;
     padding-top: 3rem;
 
   }
@@ -183,6 +275,20 @@ img.jumbo_one {
   and (orientation: portrait) { div img.jumbo_one div img.jumbo_copy {
   {width: 100%; height: 100%; margin: 0; padding: 0;}
 
+  article {
+    font-size: 1.9rem;
+  }
+
+  html {
+    font-size: 60%;
+  }
+  article section {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 3rem;
+
+  }
+
 }
 
 /* Landscape */
@@ -191,3 +297,17 @@ img.jumbo_one {
   and (max-device-width: 736px)
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) {
+    article {
+      font-size: 2rem;
+    }
+
+    html {
+      font-size: 60%;
+    }
+    article section {
+      padding-left: 20%;
+      padding-right: 20%;
+      padding-top: 3rem;
+
+    }
+  }

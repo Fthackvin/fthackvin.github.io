@@ -110,25 +110,33 @@ background-color: #F7F5D0;
 }
 
 header#main_header.main_header {
-  height: 16rem;
+  height: 65px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
 }
-
 
 header div#logo{
   z-index: 1;
-  width: 8em;
+  width: 23%;
   height: auto;
   display: block;
   vertical-align: middle;
-  padding-top: 2rem;
+  /*padding-top: 0.1rem;*/
   clear:both;
-  margin: 0px auto;
+  margin: -8px auto 0 auto;
   opacity: 1;
-
+  overflow: hidden;
+}
+header div#logo img {
+  width: 100%;
 }
 
 div.logo_container {
   display: block;
+  position: relative;
+  width: 100%;
 }
 
 div#spacer {
@@ -221,14 +229,59 @@ visibility: hidden;
   -webkit-animation-duration: 3s;
 }
 
+*/
 
-.jumbo_one.fadeOut {
-  -webkit-animation-duration: 3s;
-  -webkit-animation-iteration-count:1;
-  -webkit-animation-time
+body {
+  min-height: 3000px;
+}
+
+.jumbotron {
+  position: fixed;
+  top: 60px;
+  bottom: 0;
+  width: 100%;
+  z-index: 0;
+}
+
+.content {
+  position: fixed;
+  top: 10060px;
+  width: 100%;
+  z-index: 2;
+  background: #fff;
+}
+
+.content.flow {
+  position: relative;
+  top: 0;
+  margin-top: 600px;
+}
+
+.jumbo_one, .jumbo_copy {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.jumbo_one img, .jumbo_copy img {
+  width: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+}
+
+.jumbo_one {
+  background: #b1d247;
+  z-index: 1;
+}
+
+.jumbo_copy {
+  background: #4d5f85;
+  z-index: 0;
+}
 
 
-}*/
 
 .image_two.wow.bounceIn {
   -webkit-animation-duration: 1s;
@@ -279,23 +332,17 @@ div img.Main.clearfix:after{
 
 
 
-.jumbo_one {
-width:100%;
+/*img.jumbo_one {
+max-width: 50%;
+object-fit: cover;
+height: auto;
+width: auto;
 z-index:2;
 position: absolute;
-float:left;
+
 display: block;
 
-}
-
-.jumbo_copy {
-width:100%;
-z-index: 0;
-position: relative;
-display: block;
-
-}
-
+}*/
 
 
 /*animated images*/
@@ -305,8 +352,8 @@ display: block;
 div.image_one img{
   clear: both;
   width: 100%;
-  padding-left: 30rem;
-  padding-right: 30rem;
+  padding-left: 30%;
+  padding-right: 30%;
   display: block;
   border-radius: 50%;
 
