@@ -36,10 +36,20 @@ div.hgroup_background {
 @media screen and (max-width:999px) {
   article {
     font-size: 2.1rem;
-    padding-left: 0;
-    padding-right: 0;
+  }
+
+  html {
+    font-size: 60%;
+  }
+  article section {
+    padding-left: 20%;
+    padding-right: 20%;
+
   }
 }
+}
+
+
 
 
 @media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
@@ -145,8 +155,22 @@ img.jumbo_one {
 @media only screen
   and (min-device-width: 414px)
   and (max-device-width: 736px)
-  and (-webkit-min-device-pixel-ratio: 3) { div img.jumbo_one div img.jumbo_copy {
+  and (-webkit-min-device-pixel-ratio: 3) {
+    div img.jumbo_one div img.jumbo_copy {
   {width: 100%; height: 100%; margin: 0; padding: 0;}
+
+  article {
+    font-size: 2.1rem;
+  }
+
+  html {
+    font-size: 60%;
+  }
+  article section {
+    padding-left: 20%;
+    padding-right: 20%;
+
+  }
 
 }
 

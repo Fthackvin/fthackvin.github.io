@@ -377,8 +377,8 @@ article section {
   /*padding-top: 1;*/
   width: 100%;
   display:inline-block;
-  padding-left: 35rem;
-  padding-right: 35rem;
+  padding-left: 30%;
+  padding-right: 30%;
   letter-spacing: 1px;
 }
 
