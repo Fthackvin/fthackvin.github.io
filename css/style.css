@@ -92,18 +92,20 @@ h2 {
 }
 
 
-h1.headline, h1.headline_two, h1.headline_three, h1.headline_four{
+h1.headline_four span{
+    font-size: 0.25em;
+    font-style: italic;
+    padding-left: 0.5em;
 }
 
-div.mundial {
-  padding-top: 10%;
-  padding-left: 8%;
-  padding-right: 8%;
-  /*width: 100%;*/
-  height: auto;
-  /*background-color: white;*/
-  font-family: "Roboto", serif, helvetica;
-  font-size: 2.5rem;;
+.mundial {
+    margin: 2em auto 0 auto;
+    padding: 1em;
+    width: 80%;
+    height: auto;
+    background-color: rgba(255,211,30,0.5);
+    font-family: "Roboto", serif, helvetica;
+    font-size: 1em;
 }
 
 article section span {
@@ -166,7 +168,9 @@ div.hgroup_background {
   width: 100%;
   height: 100%;
   padding-bottom: 5rem;
-  background-color: #4d5f85;
+/*  background-color: #/*4d5f85*/;
+*/
+  background-color: transparent;  
   border: none;
   margin: 0 auto;
   display: block;
@@ -208,7 +212,10 @@ body {
   top: 10560px;
   width: 100%;
   z-index: 5;
-  background: #fff;
+}
+
+.content_body {
+  background-color: white;
 }
 
 .content.flow {
