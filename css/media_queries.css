@@ -1,8 +1,213 @@
 /*__________________________________________________
 Media Queries
 ____________________________________________________*/
+@media screen and (max-width:800px) {
+div.jumbo_one, div.jumbo_copy  {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+.jumbo_one img, .jumbo_copy img {
+  width: 100%;
+  overflow: scroll;
+  position: absolute;
+  bottom: 0;
+  left: 2%;
+}
+header div#logo{
+  z-index: 1;
+  width: 35%;
+}
+
+div.logo_container {
+  height: 80%;
+}
+
+hgroup div.hgroup_background {
+  width: 100%;
+  height: 70%;
+}
+
+h1.headline, h1.headline_two, h1.headline_four, h1.headline_three, h1.headline_five{
+  font-size: 12.5rem;
+  letter-spacing: -3px;
+}
 
 
+div h2 span, div h3 {
+  font-size: 80%;
+}
+
+div.title_info h3, div.title_info h2 {
+  padding-left: 1rem;
+    }
+
+article section {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+body article {
+  font-size: 35%;
+}
+
+div.image_one img, div.image_two img, div.image_three img, div.image_four img, div.image_five img, div.image_six img{
+  padding-left: 10%;
+  padding-right: 10%;
+
+  }
+}
+
+
+
+
+@media screen and (max-width:600px) {
+div.jumbo_one, div.jumbo_copy  {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+.jumbo_one img, .jumbo_copy img {
+  width: 100%;
+  overflow: scroll;
+  position: absolute;
+  bottom: 0;
+  left: 2%;
+}
+header div#logo{
+  z-index: 1;
+  width: 40%;
+}
+
+div.logo_container {
+  height: 70%;
+}
+
+hgroup div.hgroup_background {
+  width: 100%;
+  height: 60%;
+}
+
+h1.headline, h1.headline_two, h1.headline_four, h1.headline_three, h1.headline_five{
+  font-size: 12.5rem;
+  letter-spacing: -3px;
+}
+
+
+div h2 span, div h3 {
+  font-size: 80%;
+}
+
+div.title_info h3, div.title_info h2 {
+  padding-left: 1rem;
+    }
+
+article section {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+body article {
+  font-size: 35%;
+}
+
+div.image_one img, div.image_two img, div.image_three img, div.image_four img, div.image_five img, div.image_six img{
+  padding-left: 10%;
+  padding-right: 10%;
+
+  }
+}
+
+@media screen and (max-width:577px){
+h1.headline, h1.headline_two, h1.headline_four, h1.headline_three, h1.headline_five{
+  font-size: 13rem;
+  letter-spacing: -3px;
+}
+}
+
+@media screen and (max-width:559px){
+h1.headline, h1.headline_two, h1.headline_four, h1.headline_three, h1.headline_five{
+  font-size: 12rem;
+  letter-spacing: -3px;
+}
+}
+
+@media screen and (max-width:514px){
+h1.headline, h1.headline_two, h1.headline_four, h1.headline_three, h1.headline_five{
+  font-size: 11rem;
+  letter-spacing: -3px;
+}
+}
+
+
+
+@media screen and (max-width:467px) {
+div.jumbo_one, div.jumbo_copy  {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+.jumbo_one img, .jumbo_copy img {
+  width: 115%;
+  overflow: scroll;
+  position: absolute;
+  bottom: 0;
+  left: -7%;
+}
+header div#logo{
+  z-index: 1;
+  width: 40%;
+}
+
+div.logo_container {
+  height: 70%;
+}
+
+hgroup div.hgroup_background {
+  width: 100%;
+  height: 60%;
+}
+
+h1.headline, h1.headline_two, h1.headline_four, h1.headline_three, h1.headline_five{
+  font-size: 10rem;
+  letter-spacing: -3px;
+}
+
+
+div h2 span, div h3 {
+  font-size: 70%;
+}
+
+div.title_info h3, div.title_info h2 {
+  padding-left: 1rem;
+    }
+
+article section {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+body article {
+  font-size: 35%;
+}
+
+div.image_one img, div.image_two img, div.image_three img, div.image_four img, div.image_five img, div.image_six img{
+  padding-left: 10%;
+  padding-right: 10%;
+
+  }
+}
+
+@media screen and (max-width:422px) {
+
+  h1.headline, h1.headline_two, h1.headline_four, h1.headline_three, h1.headline_five{
+    font-size: 9rem;
+    letter-spacing: -3px;
+  }
+}
 
 @media screen and (max-width:400px) {
 div.jumbo_one, div.jumbo_copy  {
@@ -38,7 +243,7 @@ h1.headline, h1.headline_two, h1.headline_three, h1.headline_four, h1.headline_f
 }
 
 div h2 span, div h3 {
-  font-size: 80%;
+  font-size: 65%;
 }
 
 div.title_info h3, div.title_info h2 {
@@ -51,7 +256,7 @@ article section {
 }
 
 body article {
-  font-size: 35%;
+  font-size: 33%;
 }
 
 div.image_one img, div.image_two img, div.image_three img, div.image_four img, div.image_five img, div.image_six img{

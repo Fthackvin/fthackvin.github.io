@@ -84,22 +84,9 @@ h2 {
 }
 
 
-h1.headline {
+h1.headline, h1.headline_two, h1.headline_three, h1.headline_four{
   font-size: 30rem;
   letter-spacing: -3px;
-}
-
-h1.headline_two {
-  font-size: 30rem;
-}
-
-h1.headline_three {
-  font-size: 30rem;
-}
-
-
-h1.headline_five{
-  font-size: 30rem;
 }
 
 article section span {
