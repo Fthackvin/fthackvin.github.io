@@ -358,6 +358,7 @@ Footer
 ____________________________________________________*/
 div.site-footer {
   font-size: 3rem;
+  text-align: center;
   background-color: #F7F5D0;
   overflow:hidden;
   bottom: 0;
