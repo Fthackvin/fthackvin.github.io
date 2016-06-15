@@ -62,16 +62,17 @@ article.clearfix:after{
   clear: both;
 }
 
-article section {
-  font-family:  Roboto, serif, helvetica;
+article p {
+  font-family:  "Roboto", serif, helvetica;
   clear: both;
+
 }
 
 a:link{
   color:black;
 }
 a:visited{
-  color:white;
+  color: #4d5f85;
 }
 
 h1 {
@@ -95,11 +96,11 @@ div.mundial {
   padding-top: 10%;
   padding-left: 8%;
   padding-right: 8%;
-  width: 100%;
+  /*width: 100%;*/
   height: auto;
-  background-color: white;
-  font-family: Roboto, serif, helvetica;
-  font-size: 48%;
+  /*background-color: white;*/
+  font-family: "Roboto", serif, helvetica;
+  font-size: 2.5rem;;
 }
 
 article section span {
@@ -379,7 +380,7 @@ article section.para_one {
   padding-top: 30%;
 }
 
-article section.para_eighteen {
+article p.para_eighteen {
   padding-bottom: 20rem;
 }
 
@@ -412,6 +413,9 @@ div p a {
 p.footer_title, p.footer_text {
   width: 100%;
 
+}
+p.footer_title {
+text-transform: uppercase;
 }
 
 p.footer_text {
