@@ -55,14 +55,14 @@ $( document ).ready(function() {
   .setTween(seaman_up_tween)
   .addTo(controller);
 
-	var scene1 = new ScrollMagic.Scene({
-	  triggerElement: "#gif_container", // point of execution
-	  duration: $(window).height(), // pin element for the window height - 1
-	  triggerHook: 0, // don't trigger until #pinned-trigger1 hits the top of the viewport
-	  reverse: true // allows the effect to trigger when scrolled in the reverse direction
-	})
-	.setPin("#parallax_gif") // the element we want to pin
-	.addTo(controller);
+	// var scene1 = new ScrollMagic.Scene({
+	//   triggerElement: "#gif_container", // point of execution
+	//   duration: $(window).height(), // pin element for the window height - 1
+	//   triggerHook: 0, // don't trigger until #pinned-trigger1 hits the top of the viewport
+	//   reverse: true // allows the effect to trigger when scrolled in the reverse direction
+	// })
+	// .setPin("#parallax_gif") // the element we want to pin
+	// .addTo(controller);
 
   // var gif_up_tween = TweenLite.to("#parallax_gif", 1, {'top':"0px"});
   // var gif_up_scene = new ScrollMagic.Scene({
