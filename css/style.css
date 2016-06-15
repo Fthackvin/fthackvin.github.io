@@ -257,20 +257,19 @@ div.jumbo_four img {
 /* GIF Parallax Stuff */
 
 #gif_container {
-  box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
-  background-color: rgba(0,0,0,0.05)
-  margin-top : 2em;
 }
 
 #parallax_gif {
+  box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
   z-index: 0;
   position: relative;
-  top: 75px;
+  z-index: 200;
 }
 
 #parallax_gif img {
   margin: 0 auto;
   display: block;
+  width: 100%;
 }
 
 .article_inner {
