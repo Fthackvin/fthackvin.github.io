@@ -406,7 +406,12 @@ ____________________________________________________*/
     right: 0;
   }
 
-
+  .parallax-window {
+    z-index: 8;
+      min-height: 800px;
+      background: transparent;
+      visibility: visible;
+  }
 
 
 

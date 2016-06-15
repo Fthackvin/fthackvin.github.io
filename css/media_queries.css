@@ -30,7 +30,7 @@ div.logo_container {
 
 hgroup div.hgroup_background {
   width: 100%;
-  height: 80%;
+  height: 100%;
 }
 
 h1.headline, h1.headline_two, h1.headline_four, h1.headline_three, h1.headline_five{
@@ -98,7 +98,7 @@ div.logo_container {
 
 hgroup div.hgroup_background {
   width: 100%;
-  height: 80%;
+  height: 100%;
 }
 
 h1.headline, h1.headline_two, h1.headline_four, h1.headline_three, h1.headline_five{
@@ -156,6 +156,43 @@ article section {
 body article {
   font-size: 48%;
 }
+
+h1.headline, h1.headline_two, h1.headline_four, h1.headline_three, h1.headline_five{
+  font-size: 20rem;
+  letter-spacing: -3px;
+}
+
+}
+
+
+@media screen and (min-width:1150px) {
+div.jumbo_one, div.jumbo_copy  {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+.jumbo_one img, .jumbo_copy img {
+  width: 80%;
+  overflow: scroll;
+  position: absolute;
+  bottom: 0;
+  left: 12%;
+}
+article section {
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+body article {
+  font-size: 48%;
+}
+
+h1.headline, h1.headline_two, h1.headline_four, h1.headline_three, h1.headline_five{
+  font-size: 18rem;
+  letter-spacing: -3px;
+}
+
 }
 
 
