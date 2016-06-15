@@ -364,7 +364,7 @@ div.site-footer {
   background-color: #F7F5D0;
   overflow: visible;
   bottom: 0;
-  z-index: 5;
+  z-index: 6;
   height: 50rem;
 }
 
@@ -372,7 +372,7 @@ div.site-footer p  {
 
 margin: 1rem 2rem;
 float:left;
-padding-top: 45rem;
+padding-top: 30rem;
 
 }
 
