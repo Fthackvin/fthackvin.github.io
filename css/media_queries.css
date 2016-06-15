@@ -1,4 +1,4 @@
-/*__________________________________________________
+/*/*__________________________________________________
 Media Queries
 ____________________________________________________*/
 @media screen and (min-width:1400px) {
@@ -53,7 +53,6 @@ article section {
 }
 
 body article {
-  font-size: 45%;
 }
 
 div.image_one img, div.image_two img, div.image_three img, div.image_four img, div.image_five img, div.image_six img{
@@ -121,7 +120,6 @@ article section {
 }
 
 body article {
-  font-size: 45%;
 }
 
 div.image_one img, div.image_two img, div.image_three img, div.image_four img, div.image_five img, div.image_six img{
@@ -154,7 +152,6 @@ article section {
 }
 
 body article {
-  font-size: 48%;
 }
 
 h1.headline, h1.headline_two, h1.headline_four, h1.headline_three, h1.headline_five{
@@ -185,7 +182,6 @@ article section {
 }
 
 body article {
-  font-size: 48%;
 }
 
 h1.headline, h1.headline_two, h1.headline_four, h1.headline_three, h1.headline_five{
@@ -248,7 +244,6 @@ aarticle section {
 }
 
 body article {
-  font-size: 48%;
 }
 
 div.image_one img, div.image_two img, div.image_three img, div.image_four img, div.image_five img, div.image_six img{
@@ -369,7 +364,6 @@ article section {
 }
 
 body article {
-  font-size: 37%;
 }
 
 div.image_one img, div.image_two img, div.image_three img, div.image_four img, div.image_five img, div.image_six img{
@@ -484,7 +478,6 @@ article section {
 }
 
 body article {
-  font-size: 35%;
 }
 
 div.image_one img, div.image_two img, div.image_three img, div.image_four img, div.image_five img, div.image_six img{
@@ -568,7 +561,6 @@ article section {
 }
 
 body article {
-  font-size: 35%;
 }
 
 div.image_one img, div.image_two img, div.image_three img, div.image_four img, div.image_five img, div.image_six img{
@@ -637,7 +629,6 @@ article section {
 }
 
 body article {
-  font-size: 34%;
 }
 
 div.image_one img, div.image_two img, div.image_three img, div.image_four img, div.image_five img, div.image_six img{
@@ -646,3 +637,4 @@ div.image_one img, div.image_two img, div.image_three img, div.image_four img, d
 
   }
 }
+*/
