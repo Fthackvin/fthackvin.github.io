@@ -2,120 +2,61 @@
 Media Queries
 ____________________________________________________*/
 
-@media screen and (max-width: 1347px) {
 
-div.hgroup_background {
-  height: 10rem;
-  }
-}
 
-@media screen and (max-width:1140px) {
-  article {
-    font-size: 3rem;
-  }
-}
-
-@media screen and (max-width:1103px) {
-  article {
-    font-size: 2.5rem;
-  }
-}
-
-@media screen and (max-width:1031px) {
-  article {
-    font-size: 2.3rem;
-  }
-  div.image_one img {
-    padding-left: 27%;
-    padding-right: 27%;
-  }
-}
-
-@media screen and (max-width:1017px) {
-  article {
-    font-size: 2.2rem;
-  }
-  div.image_one img {
-    padding-left: 25%;
-    padding-right: 25%;
-  }
-}
-
-@media screen and (max-width:999px) {
-  article {
-    font-size: 2.1rem;
-  }
-
-  html {
-    font-size: 60%;
-  }
-  article section {
-    padding-left: 20%;
-    padding-right: 20%;
-
-  }
-
-  div.image_one img {
-    padding-left: 20%;
-    padding-right: 20%;
-  }
-}
-}
-
-@media screen and (max-width:583px) {
-  article {
-    font-size: 1.5rem;
-  }
-
-  html {
-    font-size: 50%;
-  }
-  article section {
-    padding-left: 14%;
-    padding-right: 14%;
-
-  }
-
-  div.image_one img {
-    padding-left: 20%;
-    padding-right: 20%;
-  }
-}
-}
-
-@media screen and (max-width:583px) {
-  article {
-    font-size: 1.5rem;
-  }
-
-  html {
-    font-size: 50%;
-  }
-  article section {
-    padding-left: 14%;
-    padding-right: 14%;
-
-  }
-
-  div.image_one img {
-    padding-left: 20%;
-    padding-right: 20%;
-  }
-}
-}
-
-@media screen and (max-width:500px) {
-.jumbo_one, .jumbo_copy  {
+@media screen and (max-width:400px) {
+div.jumbo_one, div.jumbo_copy  {
   position: absolute;
   top: 0;
   bottom: 0;
   width: 100%;
-  height: 60%;
 }
 .jumbo_one img, .jumbo_copy img {
-  width: 80%;
+  width: 115%;
+  overflow: scroll;
   position: absolute;
   bottom: 0;
-  left: 5%;
+  left: -7%;
 }
+header div#logo{
+  z-index: 1;
+  width: 40%;
+}
+
+div.logo_container {
+  height: 70%;
+}
+
+hgroup div.hgroup_background {
+  width: 100%;
+  height: 60%;
+}
+
+h1.headline, h1.headline_two, h1.headline_three, h1.headline_four, h1.headline_five{
+  font-size: 9rem;
+  letter-spacing: -3px;
+}
+
+div h2 span, div h3 {
+  font-size: 80%;
+}
+
+div.title_info h3, div.title_info h2 {
+  padding-left: 1rem;
+    }
+
+article section {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+body article {
+  font-size: 35%;
+}
+
+div.image_one img, div.image_two img, div.image_three img, div.image_four img, div.image_five img, div.image_six img{
+  padding-left: 10%;
+  padding-right: 10%;
+
+  }
 }
