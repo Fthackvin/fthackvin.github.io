@@ -27,10 +27,11 @@ $( document ).ready(function() {
   var controller = new ScrollMagic.Controller();
 
   // Seaman image
-  
+
   var seaman_tween = TweenLite.to("#seaman", 0.5, {'margin-left':"-100px"});
   var seaman_scene = new ScrollMagic.Scene({
   triggerElement: '#paratwo',
+  triggerHook: 'onEnter',
   })
   .setTween(seaman_tween)
   .addTo(controller);
