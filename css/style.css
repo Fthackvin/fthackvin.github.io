@@ -243,6 +243,34 @@ div.jumbo_four img {
   height: auto;
 }
 
+/* GIF Parallax Stuff */
+
+#gif_container {
+  box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.05)
+  margin-top : 2em;
+}
+
+#parallax_gif {
+  z-index: 0;
+  position: relative;
+  top: 75px;
+}
+
+#parallax_gif img {
+  margin: 0 auto;
+  display: block;
+}
+
+.article_inner {
+      z-index: 20;
+    background: white;
+}
+
+.article_inner article {
+    padding-top: 1em;
+
+}
 /*__________________________________________________
 Images
 ____________________________________________________*/
@@ -251,15 +279,17 @@ img {
   max-width: 100%;
 }
 
+div.image_one {
+  position: relative;
+}
+
 div.image_one img{
-  clear: both;
-  width: 100%;
-  padding-left: 30%;
-  padding-right: 30%;
+  position: relative;
+  left: -1000px;
+  margin: 0 auto;
+  width: 75%;
   display: block;
   border-radius: 50%;
-
-
 }
 
 div.image_two img{
