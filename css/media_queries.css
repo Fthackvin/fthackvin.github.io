@@ -1,6 +1,7 @@
 /*/*__________________________________________________
 Media Queries
 ____________________________________________________*/
+<<<<<<< HEAD
 @media screen and (min-width:1400px) {
 div.jumbo_one, div.jumbo_copy  {
   position: absolute;
@@ -131,7 +132,6 @@ div.image_one img, div.image_two img, div.image_three img, div.image_four img, d
 }
 
 
-
 @media screen and (min-width:1150px) {
 div.jumbo_one, div.jumbo_copy  {
   position: absolute;
@@ -185,14 +185,14 @@ body article {
 }
 
 h1.headline, h1.headline_two, h1.headline_four, h1.headline_three, h1.headline_five{
-  font-size: 18rem;
+  font-size: 20rem;
   letter-spacing: -3px;
 }
 
 }
 
 
-@media screen and (max-width:1000px) {
+@media screen and (min-width:1000px) {
 div.jumbo_one, div.jumbo_copy  {
   position: absolute;
   top: 0;
@@ -212,7 +212,7 @@ header div#logo{
 }
 
 header#main_header.main_header {
-  height: 8%;
+  height: 11%;
 }
 
 div.logo_container {
@@ -225,7 +225,7 @@ hgroup div.hgroup_background {
 }
 
 h1.headline, h1.headline_two, h1.headline_four, h1.headline_three, h1.headline_five{
-  font-size: 20rem;
+  font-size: 18rem;
   letter-spacing: -3px;
 }
 
@@ -238,12 +238,13 @@ div.title_info h3, div.title_info h2 {
   padding-left: 1rem;
     }
 
-aarticle section {
+article section {
   padding-left: 7%;
   padding-right: 7%;
 }
 
 body article {
+
 }
 
 div.image_one img, div.image_two img, div.image_three img, div.image_four img, div.image_five img, div.image_six img{
@@ -272,6 +273,12 @@ div.image_one img, div.image_two img, div.image_three img, div.image_four img, d
     bottom: 0;
     left: 10%;
 }
+
+h1.headline, h1.headline_two, h1.headline_four, h1.headline_three, h1.headline_five{
+  font-size: 17rem;
+  letter-spacing: -3px;
+}
+
 }
 
 
@@ -310,6 +317,10 @@ div.image_one img, div.image_two img, div.image_three img, div.image_four img, d
     width: 30%;
   }
 }
+@media screen and (max-width:800px) {
+
+}
+
 
 
 @media screen and (max-width:800px) {
@@ -364,6 +375,7 @@ article section {
 }
 
 body article {
+
 }
 
 div.image_one img, div.image_two img, div.image_three img, div.image_four img, div.image_five img, div.image_six img{
@@ -371,6 +383,7 @@ div.image_one img, div.image_two img, div.image_three img, div.image_four img, d
   padding-right: 10%;
 
   }
+}
 }
 
 
@@ -390,6 +403,11 @@ div.image_one img, div.image_two img, div.image_three img, div.image_four img, d
   }
   header#main_header.main_header {
     height: 8%;
+  }
+
+  h1.headline, h1.headline_two, h1.headline_four, h1.headline_three, h1.headline_five{
+    font-size: 16rem;
+    letter-spacing: -3px;
   }
 
 

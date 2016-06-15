@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Asap:400,400italic,700,700italic);
-/*@import url(https://fonts.googleapis.com/css?family=Raleway:400,600);*/
+@import url(https://fonts.googleapis.com/css?family=Lato);
 
 
 * {
@@ -31,6 +31,8 @@ p {
 
 
 h1, h2, h3, h4, h5, h6 {
+font-family: Lato, helvetica, Arial, sans-serif;
+font-weight: bold;
 margin: 0;
 padding-left: 0.5rem;
 font-size: 7em;
@@ -87,7 +89,17 @@ h2 {
 
 h1.headline, h1.headline_two, h1.headline_three, h1.headline_four{
   font-size: 30rem;
-  letter-spacing: -3px;
+}
+
+div.mundial {
+  padding-top: 10%;
+  padding-left: 8%;
+  padding-right: 8%;
+  width: 100%;
+  height: auto;
+  background-color: white;
+  font-family: Roboto, serif, helvetica;
+  font-size: 48%;
 }
 
 article section span {
@@ -150,7 +162,7 @@ div.hgroup_background {
   width: 100%;
   height: 100%;
   padding-bottom: 5rem;
-  background-color: black;
+  background-color: #4d5f85;
   border: none;
   margin: 0 auto;
   display: block;
@@ -306,6 +318,15 @@ div.image_six img{
 sections
 ____________________________________________________*/
 
+.parallax-window {
+  z-index: 8;
+    min-height: 800px;
+    background: transparent;
+    visibility: visible;
+    background-attachment: fixed;
+}
+
+
 
 article section {
   /*padding-top: 1;*/
@@ -322,7 +343,7 @@ article.clearfix {
 }
 
 article section.para_one {
-  padding-top: 20rem;
+  padding-top: 30%;
 }
 
 article section.para_eighteen {
@@ -333,23 +354,20 @@ article section.para_eighteen {
 Footer
 ____________________________________________________*/
 div.site-footer {
-  float: left;
-  width: 100%;
-  clear: both;
   font-size: 3rem;
-  color: black;
   background-color: #F7F5D0;
   overflow:hidden;
   bottom: 0;
   z-index: 6;
-  height: 50rem;
+  height: 50%;
+  padding-bottom: 20%;
 }
 
 div.site-footer p  {
-
-margin: 1rem 2rem;
-float:left;
-padding-top: 30rem;
+  font-family: "Roboto", sans-serif;
+  padding-top: 5%;
+  padding-left: 20%;
+  padding-right: 20%;
 
 }
 
@@ -357,11 +375,13 @@ div p a {
   color: black;
 }
 
-.site-footer p a  {
-color: black;
-padding-top: 4rem;
+p.footer_title, p.footer_text {
+  width: 100%;
+
 }
 
+p.footer_text {
+}
 
 
 /*__________________________________________________
@@ -401,12 +421,6 @@ ____________________________________________________*/
     right: 0;
   }
 
-  .parallax-window {
-    z-index: 8;
-      min-height: 800px;
-      background: transparent;
-      visibility: visible;
-  }
 
 
 
