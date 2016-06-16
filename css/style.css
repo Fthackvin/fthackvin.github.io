@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Asap:400,400italic,700,700italic);
 @import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=IM+Fell+French+Canon);
 
 
 * {
@@ -45,7 +46,8 @@ a {
   text-decoration: none;
 }
 
-article {
+  article {
+
   font-size: 3rem;
   clear:both;
   transform-style: flat;
@@ -66,7 +68,6 @@ article.clearfix:after{
 article p {
   font-family:  "Roboto", serif, helvetica;
   clear: both;
-
 }
 
 a:link{
@@ -81,9 +82,6 @@ h1 {
   text-transform: uppercase;
 }
 
-span {
-  font-style: italic;
-}
 
 h2 {
   padding-top: 3rem;
@@ -93,24 +91,23 @@ h2 {
 
 
 h1.headline_four span{
+    font-family: "IM Fell French Canon","Roboto",sans-serif;
     font-size: 0.25em;
+    letter-spacing: 0.5px;
     font-style: italic;
     padding-left: 0.5em;
 }
 
 .mundial {
-    margin: 2em auto 0 auto;
-    padding: 1em;
+    margin: 2em auto 4em auto;
+    padding: 2em 2em 3em;
     width: 80%;
     height: auto;
-    background-color: rgba(255,211,30,0.5);
+    background-color: #F7F5D0;
     font-family: "Roboto", serif, helvetica;
     font-size: 1em;
 }
 
-article section span {
-  font-style: italic;
-}
 
 /*__________________________________________________
 Header
@@ -126,7 +123,7 @@ header#main_header.main_header {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 4;
+  z-index: 6;
 }
 
 header div#logo{
@@ -170,7 +167,7 @@ div.hgroup_background {
   padding-bottom: 5rem;
 /*  background-color: #/*4d5f85*/;
 */
-  background-color: transparent;  
+  background-color: transparent;
   border: none;
   margin: 0 auto;
   display: block;
@@ -404,11 +401,13 @@ div.site-footer {
   bottom: 0;
   z-index: 6;
   height: 50%;
-  padding-bottom: 20%;
+  padding-bottom: 15%;
+  padding-top: 1em;
 }
 
 div.site-footer p  {
   font-family: "Roboto", sans-serif;
+  transform-style: flat;
   padding-top: 5%;
   padding-left: 19%;
   padding-right: 19%;
@@ -428,6 +427,7 @@ text-transform: uppercase;
 }
 
 p.footer_text {
+
 }
 
 
