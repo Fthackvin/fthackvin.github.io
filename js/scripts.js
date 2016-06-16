@@ -70,7 +70,7 @@ $( document ).ready(function() {
     triggerHook: 0, // don't trigger until #pinned-trigger1 hits the top of the viewport
     reverse: true // allows the effect to trigger when scrolled in the reverse direction
   })
-  .setPin("#gif_2") // the element we want to pin
+  .setPin("#parallax_gif_2") // the element we want to pin
   .addTo(controller);
   // var gif_up_tween = TweenLite.to("#parallax_gif", 1, {'top':"0px"});
   // var gif_up_scene = new ScrollMagic.Scene({

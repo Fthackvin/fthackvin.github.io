@@ -99,7 +99,7 @@ h1.headline_four span{
 }
 
 .mundial {
-    margin: 6em auto 14em auto;
+    margin: 6em auto 4em auto;
     padding: 2em 2em 3em;
     width: 80%;
     height: auto;
@@ -108,6 +108,11 @@ h1.headline_four span{
     font-size: 1em;
 }
 
+#mundial_covers {
+  width: 400px;
+  margin: 0 auto 4em auto;
+  display: block;
+}
 
 /*__________________________________________________
 Header
@@ -256,14 +261,14 @@ div.jumbo_four img {
 #gif_container {
 }
 
-#parallax_gif {
+#parallax_gif, #parallax_gif_2 {
   box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
   z-index: 0;
   position: relative;
   z-index: 200;
 }
 
-#parallax_gif img {
+#parallax_gif img, #parallax_gif_2 img {
   margin: 0 auto;
   display: block;
   width: 100%;
