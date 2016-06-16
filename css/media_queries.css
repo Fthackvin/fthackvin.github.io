@@ -17,7 +17,7 @@ div.jumbo_one, div.jumbo_copy  {
   overflow: scroll;
   position: absolute;
   bottom: 0;
-  left: 25%;
+  left: 35%;
 }
 }
 
@@ -392,6 +392,11 @@ h1.headline, h1.headline_two, h1.headline_four, h1.headline_three, h1.headline_f
     font-size: 14rem;
     letter-spacing: -3px;
   }
+
+  div.site-footer {
+    font-size: 2rem;
+  }
+
 }
 
 
@@ -455,6 +460,11 @@ div.image_one img, div.image_two img, div.image_three img, div.image_four img, d
   padding-right: 10%;
 
   }
+
+  div.site-footer {
+    font-size: 1.5rem;
+  }
+
 }
 
 
@@ -467,12 +477,21 @@ h1.headline, h1.headline_two, h1.headline_four, h1.headline_three, h1.headline_f
 header#main_header.main_header {
   height: 12%;
 }
+
+div.site-footer {
+  font-size: 1.5rem;
+}
+
 }
 
 @media screen and (max-width:514px){
 h1.headline, h1.headline_two, h1.headline_four, h1.headline_three, h1.headline_five{
   font-size: 11rem;
   letter-spacing: -3px;
+}
+
+div.site-footer {
+  font-size: 2rem;
 }
 
 
@@ -538,6 +557,11 @@ div.image_one img, div.image_two img, div.image_three img, div.image_four img, d
   padding-right: 10%;
 
   }
+
+  div.site-footer {
+    font-size: 1.5rem;
+  }
+
 }
 
 @media screen and (max-width:422px) {
@@ -545,6 +569,9 @@ div.image_one img, div.image_two img, div.image_three img, div.image_four img, d
   h1.headline, h1.headline_two, h1.headline_four, h1.headline_three, h1.headline_five{
     font-size: 9rem;
     letter-spacing: -3px;
+  }
+  div.site-footer {
+    font-size: 1.5rem;
   }
 }
 
@@ -606,5 +633,9 @@ div.image_one img, div.image_two img, div.image_three img, div.image_four img, d
   padding-right: 10%;
 
   }
+div p.footer_text, p.footer_title{
+  font-size: 0.6em;
+}
+
 }
 */
