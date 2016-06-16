@@ -416,6 +416,7 @@ div.site-footer p  {
 
 div p a {
   color: black;
+  text-decoration: underline;
 }
 
 p.footer_title, p.footer_text {
